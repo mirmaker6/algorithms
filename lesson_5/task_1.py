@@ -29,5 +29,5 @@ for i in lst:
 
 print('Компании с прибылью больше средней:')
 for i in lst:
-    if i.avg >= avg:
+    if i.avg > avg:
         print(i.name)
